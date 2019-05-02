@@ -31,10 +31,9 @@ public class TestArray2 {
 		
 		
 		for (int i = 0 ; i < array.length ; i++) {
-			int test = array [i] ;
-			int k = i;
-			for(int j = k+1 ; j < array.length ; j++) {
-				if (test == array[j]) {
+			
+			for(int j = i+1 ; j < array.length ; j++) {
+				if (array [i] == array[j]) {
 					nombre_doublon += 1 ;
 				}
 			
