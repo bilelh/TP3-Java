@@ -43,7 +43,8 @@ public class TestArray {
 		
 		System.out.println(" ");
 		System.out.println("affichage du plus grand element du tableau");
-		int plus_grand = 0;
+		
+		int plus_grand = array[0];
 		
 		for (int i=0 ; i< array.length ; i++) {
 			
@@ -58,7 +59,7 @@ public class TestArray {
 		System.out.println(" ");
 		System.out.println("affichage du plus petit element du tableau");
 		
-		int plus_petit = 0;
+		int plus_petit = array[0];
 		
 		for (int i=0 ; i< array.length ; i++) {
 			
