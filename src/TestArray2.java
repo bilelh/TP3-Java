@@ -27,6 +27,25 @@ public class TestArray2 {
 		
 		System.out.println("l'entier 15 est l'element " + (index_15 + 1) + " du tableau");
 		
+		int nombre_doublon = 0 ;
+		
+		
+		for (int i = 0 ; i < array.length ; i++) {
+			int test = array [i] ;
+			int k = i;
+			for(int j = k+1 ; j < array.length ; j++) {
+				if (test == array[j]) {
+					nombre_doublon += 1 ;
+				}
+			
+			
+			}
+		}
+		
+		System.out.println("Il y a " + nombre_doublon + " doublon dans le tableau");
+		
+		
+		
 
 	}
 
