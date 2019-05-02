@@ -45,8 +45,6 @@ public class TestArray2 {
 		System.out.println("Il y a " + nombre_doublon + " doublon dans le tableau");
 		
 		
-		
-
 	}
 
 }
