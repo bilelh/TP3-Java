@@ -13,8 +13,19 @@ public class TestArray2 {
 		}
 		
 		moyenne = somme / array.length;
-		System.out.print("La moyenne des elements du tableau est " + moyenne);
+		System.out.println("La moyenne des elements du tableau est " + moyenne);
 		
+		int index_15 = 0 ;
+		
+		System.out.println("index de l'entier 15");
+		
+		for (int i = 0 ; i < array.length ; i++) {
+			if (array[i] == 15) {
+				index_15 = i;
+			}
+		}
+		
+		System.out.println("l'entier 15 est l'element " + (index_15 + 1) + " du tableau");
 		
 
 	}
