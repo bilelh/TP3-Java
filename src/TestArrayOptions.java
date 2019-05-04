@@ -37,9 +37,7 @@ public class TestArrayOptions {
 			
 			array = newArray ;
 			
-			}
-		
-			if (user_choice == 2) {
+			} else if (user_choice == 2) {
 			
 				for (int i = 0 ; i < array.length ; i++) {
 				
@@ -48,6 +46,10 @@ public class TestArrayOptions {
 				}
 				System.out.println(" ");
 		
+			} else {
+				
+				System.out.println("Cette option n'est pas disponible ");
+				
 			}
 			
 			System.out.println("Vous avez le choix entre 2 options : ");
